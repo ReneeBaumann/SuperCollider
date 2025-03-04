@@ -1,6 +1,6 @@
 # SuperCollider
  
-<h1> 140 character assignment
+<h1> 140 character assignment<h1>
 
 In all honesty class has been very confusing and I feel quite lost most days. 
 This project was quite scary for me to attempt as I felt like we haven't really covered 
