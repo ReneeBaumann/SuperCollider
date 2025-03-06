@@ -22,8 +22,7 @@ Here is the original code I worked from. I found this code under this link: http
 I found it on github after searching for more 140 character projects and this one was from a 
 project with the wire where 22 artists presented their 140 characters of code projects. 
 
-My first observation was that I wanted to change the scale. The 
-original scale is a major pentatonic and I decided to make it a Dorian Mode scale. C, D, E♭, F, G
+My first observation was that I wanted to change the scale. The original scale is a major pentatonic and I decided to make it a Dorian Mode scale. C, D, E♭, F, G
 
 So then a problem I faced was how much do I change the code to make it mine but still enjoy how it 
 sounds and to be able to show my inspirations from the original code.
@@ -62,5 +61,5 @@ in this case it binds the scale (defines the scale of the pattern), degree (spec
 .play = makes the sound play
 
 Debbugging:
-Some issues I have run in with this code is the latency. For some reason at times some of the sounds take longer than they should and it doesn't keep playing at the same speed. I tried closing the window and restarting but the issue seemed to persist. 
+Some issues I have run in with this code is the latency/delay. For some reason at times some of the sounds take longer than they should and it doesn't keep playing at the same speed. I tried closing the window and restarting but the issue seemed to persist. 
 
