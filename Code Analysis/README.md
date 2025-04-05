@@ -16,11 +16,11 @@ Composition: The composition is completely random, there is a limited pool of sc
 
 explain long envelopes, sparse scheduling... <h4>
 
-<h2> Code:
+<h2> Code:<h2>
 
- Section 1: <h2>
+<h3> Section 1: <h3>
 
-<h3> SynthDef(\reverb_ef, : 
+<h4> SynthDef(\reverb_ef, : 
 - is the custom reverb effect (adds reverb to audio)
 - DelayN: adds a slight delay 
 - Allpass filters: 12 iterations of slightly randomized AllpassN ()
@@ -28,11 +28,11 @@ explain long envelopes, sparse scheduling... <h4>
 
 SynthDef(\filtSaw :
 - Its a sawtooth oscillator; a detuned bank of 8 saw waves 
-- SplayAz; spreads the voices across 4 channels (creating the ambient sound) <h3>
+- SplayAz; spreads the voices across 4 channels (creating the ambient sound) <h4>
 
 <h2> Second section: Cluster generator <h2>
 
-<h3> Cluster generator:
+<h4> Cluster generator:
 - Generates a bundle of synths using random pitches and parameters 
 - rrand(-7,7) makes that each cluster can shit up or down by a few semitones
 - notes are chosen from a MIDI scale and converted to Hz. 
@@ -40,8 +40,8 @@ SynthDef(\filtSaw :
     - minCf, maxCf; a unique filters range 
     - different envelope durations 
     - spatial spread
-    - ~bus; output routed to the reverb bus <h3>
+    - ~bus; output routed to the reverb bus <h4>
 
 <h2> Third section: Running the engine <h2>
 
-<h3> - Just running the cluster engine i.e .start and to stop t.stop; <h3>
+<h4> - Just running the cluster engine i.e .start and to stop t.stop; <h4>
