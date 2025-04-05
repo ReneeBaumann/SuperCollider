@@ -1,10 +1,11 @@
 <h1> Code Analysis Presentation <h1>
 
+<h2> Aestethics:<h2>
+
 <h4> Author: eli.fieldsteel
 Song name: Infinite reverberant rhythmic clusters with a marimba-like timbre.
 
-
-Aestethics:
+Summary: 
 
 The code I choose creates a generative, evolving sound texture using filtered saw waves and a custom reverb effect. It randomly generates notes and plays them with different filters and envelope parameters, creating rich, ambient textures that never quite repeat the same way. 
 
