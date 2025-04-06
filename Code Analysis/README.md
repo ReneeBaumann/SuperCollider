@@ -43,7 +43,7 @@ Main sound : Filtered saw wave with an envelope
 - Envelope parameters: atk (attack), sus (sustain), rel (release), curve1/2 (shape of attack/release)
 - SplayAz; spreads the voices across 4 channels (creating the ambient sound) <h4>
 
-<h2> Second section: Cluster generator <h2>
+<h3> Second section: Cluster generator <h3>
 
 <h4> Cluster generator:
 
@@ -61,7 +61,7 @@ Main sound : Filtered saw wave with an envelope
     - spatial spread
     - ~bus; output sent to the reverb bus <h4>
 
-<h2> Third section: Running the engine <h2>
+<h3> Third section: Running the engine <h3>
 
 <h4> - Just running the cluster engine i.e .start and to stop t.stop;
 - each cluster happens every 5.5 to 12 seconds <h4>
