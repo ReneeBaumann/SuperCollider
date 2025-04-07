@@ -1,9 +1,6 @@
 <h1> Code Analysis Presentation <h1>
 
-<h2> Aestethics:<h2>
-
-# Aestethics
-
+# Aestethics:
 
 <h4> Author: eli.fieldsteel
 Song name: Infinite reverberant rhythmic clusters with a marimba-like timbre.
@@ -24,7 +21,7 @@ Long envelopes means that the sound takes a long time to fade in, hold and fade 
 
 Sparse scheduling basically a few notes happen, spaced out over time.  <h4>
 
-<h2> Code:<h2>
+# Code:
 
 <h3> Section 1: <h3>
 
