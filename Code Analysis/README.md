@@ -19,7 +19,7 @@ Composition: The composition is completely random, there is a limited pool of sc
 
 Long envelopes means that the sound takes a long time to fade in, hold and fade out and it moves slowly and smoothly. 
 
-Sparse scheduling basically a few notes happen, spaced out over time.  <h4>
+Sparse scheduling basically a few notes happen, spaced out over time<h4>
 
 # Code:
 
@@ -41,7 +41,16 @@ SynthDef(\filtSaw, {
 Main sound : Filtered saw wave with an envelope
 - Its a sawtooth oscillator; a detuned bank of 8 saw waves 
 - Envelope parameters: atk (attack), sus (sustain), rel (release), curve1/2 (shape of attack/release)
-- SplayAz; spreads the voices across 4 channels (creating the ambient sound) <h4>
+- SplayAz; spreads the voices across 4 channels (creating the ambient sound) 
+
+About the Marimba Sound: In line 41 we see the code: 
+sig = BPF.ar(
+    sig,
+    LFNoise1.kr({LFNoise1.kr(0.13).exprange(minBpfHz,maxBpfHz)}!8).exprange(minCf, maxCf),
+    LFNoise1.kr({LFNoise1.kr(0.08).exprange(0.08,0.35)}!8).range(minRq, maxRq)
+);
+
+Which is a band pass filter, which helps shape the sound to make it feel like its coming from a real wooden instrument, like a marimba.<h4>
 
 <h3> Second section: Cluster generator <h3>
 
