@@ -190,3 +190,6 @@ t = Task {
 
 //stop clusters
 t.stop;
+
+
+Sources: Help section in SuperCollider and google for picture refrences for exmaple what a saw wave looks like. 
