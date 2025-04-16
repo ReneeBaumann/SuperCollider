@@ -192,4 +192,4 @@ t = Task {
 t.stop;
 
 
-Sources: Help section in SuperCollider and google for picture refrences for exmaple what a saw wave looks like. 
+Sources: Help section in SuperCollider and google for picture refrences for example what a saw wave looks like. 
